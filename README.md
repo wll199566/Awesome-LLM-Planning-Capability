@@ -9,6 +9,21 @@ A curated list of papers and resources based on **"PlanGenLLMs: A Modern Survey 
 
 
 
+## Citations
+
+Please cite the following paper if you find the resource helpful for your research.
+
+```
+@article{wei2025plangenllms,
+  title={Plangenllms: A modern survey of llm planning capabilities},
+  author={Wei, Hui and Zhang, Zihao and He, Shenghua and Xia, Tian and Pan, Shijia and Liu, Fei},
+  journal={arXiv preprint arXiv:2502.11221},
+  year={2025}
+}
+```
+
+
+
 
 
 
