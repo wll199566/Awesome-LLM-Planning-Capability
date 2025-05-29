@@ -5,11 +5,11 @@ A curated list of papers and resources based on **"PlanGenLLMs: A Modern Survey 
 
 ![llm-planning](./Figures/llm-planning.png)
 
-**Please cite the paper in [Citations](https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs#citations) if you find the paper list and resources in this repository helpful for your research. Thanks!**
+**Please cite the paper in [Citation](https://github.com/wll199566/awesome-llm-planning-capability#citation) if you find the paper list and resources in this repository helpful for your research. Thanks!**
 
 
 
-## Citations
+## Citation
 
 Please cite the following paper if you find the resource helpful for your research.
 
