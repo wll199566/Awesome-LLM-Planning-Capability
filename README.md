@@ -47,6 +47,7 @@ LLMs have immense potential for generating plans, transforming an initial world 
       - [Shorter Inputs and Outputs](#shorter-inputs-outputs)
       - [Smaller Model Size](#smaller-model-size)
   - [Evaluation](#evaluation)
+    - [Introduction](#evaluation-introduction)
     - [Datasets](#evaluation-datasets)
       - [Planning Focused](#planning-focused-dataset)
       - [Downstream Tasks](#downstream-tasks-datasets)
