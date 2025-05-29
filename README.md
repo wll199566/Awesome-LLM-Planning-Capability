@@ -1,7 +1,7 @@
 # awesome-llm-planning-capability
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A curated list of papers and resources based on **"PlanGenLLMs: A Modern Survey of LLM Planning Capabilities"**.
+A curated list of papers and resources based on our survey paper [**"PlanGenLLMs: A Modern Survey of LLM Planning Capabilities"**](https://arxiv.org/abs/2502.11221).
 
 ![llm-planning](./Figures/llm-planning.png)
 
