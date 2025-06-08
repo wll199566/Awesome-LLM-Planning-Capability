@@ -82,7 +82,7 @@ LLMs have immense potential for generating plans, transforming an initial world 
 *Archiki Prasad, Alexander Koller, Mareike Hartmann, Peter Clark, Ashish Sabharwal, Mohit Bansal, Tushar Khot* [[PDF](https://arxiv.org/pdf/2311.05772)] [[Code](https://github.com/archiki/ADaPT)]
 
 
-#### LLM + Classic Planners
+### LLM + Classic Planners
 1. **LLM+P: Empowering Large Language Models with Optimal Planning Proficiency** `Preprint`
 *Bo Liu, Yuqian Jiang, Xiaohan Zhang, Qiang Liu, Shiqi Zhang, Joydeep Biswas, Peter Stone* [[PDF](https://arxiv.org/pdf/2304.11477)] [[Code](https://github.com/Cranial-XIX/llm-pddl)]
 
@@ -105,7 +105,7 @@ LLMs have immense potential for generating plans, transforming an initial world 
 *Jing Yu Koh, Stephen McAleer, Daniel Fried, Ruslan Salakhutdinov* [[PDF](https://arxiv.org/pdf/2302.06706)] [[Code](https://github.com/kohjingyu/search-agents)]
 
 
-#### Search Algorithm
+### Search Algorithm
 1. **Tree of Thoughts: Deliberate Problem Solving with Large Language Models** `NeurIPS 2023`
 *Shunyu Yao, Dian Yu, Jeffrey Zhao, Izhak Shafran, Thomas L. Griffiths, Yuan Cao, Karthik Narasimhan* [[PDF](https://arxiv.org/pdf/2305.10601)] [[Code](https://github.com/princeton-nlp/tree-of-thought-llm)]
 
@@ -134,7 +134,7 @@ LLMs have immense potential for generating plans, transforming an initial world 
 *Zhenfang Chen, Delin Chen, Rui Sun, Wenjun Liu, Chuang Gan* [[PDF](https://arxiv.org/pdf/2502.12130)] [[Code](https://github.com/heaplax/ARMAP)]
 
 
-#### Fine-Tuning
+### Fine-Tuning
 1. **Visually-Grounded Planning without Vision: Language Models Infer Detailed Plans from High-level Instructions** `EMNLP 2020 Findings`
 *Peter A. Jansen* [[PDF](https://arxiv.org/pdf/2009.14259)]
 
