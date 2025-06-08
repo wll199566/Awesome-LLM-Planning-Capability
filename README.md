@@ -64,7 +64,6 @@ LLMs have immense potential for generating plans, transforming an initial world 
 
 ### Task Decomposition
 1. **Describe, Explain, Plan and Select: Interactive Planning with LLMs Enables Open-World Multi-Task Agents** `NeurIPS 2023` 
-
   *Zihao Wang, Shaofei Cai, Guanzhou Chen, Anji Liu, Xiaojian Ma, Yitao Liang* [[PDF](https://arxiv.org/pdf/2302.01560)] [[Code](https://github.com/CraftJarvis/MC-Planner)]
 
 2. **ProgPrompt: Generating Situated Robot Task Plans using Large Language Models.** `ICRA 2023` 
