@@ -325,7 +325,7 @@ LLMs have immense potential for generating plans, transforming an initial world 
 
     *Rishi Hazra, Pedro Zuidberg Dos Martires, Luc De Raedt* [[PDF](https://arxiv.org/pdf/2308.12682)] [[Code](https://github.com/RishiHazra/saycanpay)]
 
-3. **Beyond A*: Better Planning with Transformers via Search Dynamics Bootstrapping** `COLM 2024`
+3. **Beyond A\*: Better Planning with Transformers via Search Dynamics Bootstrapping** `COLM 2024`
 
     *Lucas Lehnert, Sainbayar Sukhbaatar, DiJia Su, Qinqing Zheng, Paul Mcvay, Michael Rabbat, Yuandong Tian* [[PDF](https://arxiv.org/pdf/2402.14083)] [[Code](https://github.com/facebookresearch/searchformer)]
 
