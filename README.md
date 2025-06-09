@@ -182,6 +182,169 @@ LLMs have immense potential for generating plans, transforming an initial world 
     *Renxi Wang, Haonan Li, Xudong Han, Yixuan Zhang, Timothy Baldwin* [[PDF](https://arxiv.org/pdf/2402.11651)] [[Code](https://github.com/Reason-Wang/NAT)]
 
 
+## Performance Criteria
+
+### Completeness
+
+#### Plan Correctness
+1. **Leveraging Pre-trained Large Language Models to Construct and Utilize World Models for Model-based Task Planning** `NeurIPS 2023`
+
+    *Lin Guan, Karthik Valmeekam, Sarath Sreedharan, Subbarao Kambhampati* [[PDF](https://arxiv.org/pdf/2305.14909)] [[Code](https://github.com/GuanSuns/LLMs-World-Models-for-Planning)]
+
+2.  **Large Language Models Can Solve Real-World Planning Rigorously with Formal Verification Tools** `NAACL 2025`
+    
+    *Yilun Hao, Yongchao Chen, Yang Zhang, Chuchu Fan* [[PDF](https://arxiv.org/pdf/2404.11891)] [[Code](https://github.com/yih301/LLM_Formal_Travel_Planner)]
+
+
+#### Plan Achievability
+1. **Can Large Language Models be Good Path Planners? A Benchmark and Investigation on Spatial-temporal Reasoning** `ICLR 2024 Workshop on Large Language Model (LLM) Agents`
+
+    *Mohamed Aghzal, Erion Plaku, Ziyu Yao* [[PDF](https://arxiv.org/pdf/2310.03249)] [[Code](https://github.com/MohamedAghzal/llms-as-path-planners)]
+
+2. **LLMs Still Can't Plan; Can LRMs? A Preliminary Evaluation of OpenAI's o1 on PlanBench** `Preprint`
+
+    *Karthik Valmeekam, Kaya Stechly, Subbarao Kambhampati* [[PDF](https://arxiv.org/pdf/2409.13373)]
+
+
+### Executability
+
+#### Object Grounding
+1. **AdaPlanner: Adaptive Planning from Feedback with Language Models** `NeurIPS 2023`
+   
+    *Haotian Sun, Yuchen Zhuang, Lingkai Kong, Bo Dai, Chao Zhang* [[PDF](https://arxiv.org/pdf/2305.16653)] [[Code](https://github.com/haotiansun14/AdaPlanner)]
+
+2. **Inner Monologue: Embodied Reasoning through Planning with Language Models** `CoRL 2022`
+    
+    *Wenlong Huang, Fei Xia, Ted Xiao, Harris Chan, Jacky Liang, Pete Florence, Andy Zeng, Jonathan Tompson, Igor Mordatch, Yevgen Chebotar, Pierre Sermanet, Noah Brown, Tomas Jackson, Linda Luu, Sergey Levine, Karol Hausman, Brian Ichter* [[PDF](https://arxiv.org/pdf/2207.05608)]
+
+3. **Do As I Can, Not As I Say: Grounding Language in Robotic Affordances**  `Preprint`
+    
+    *Michael Ahn, Anthony Brohan, Noah Brown, Yevgen Chebotar, Omar Cortes, Byron David, Chelsea Finn, Chuyuan Fu, Keerthana Gopalakrishnan, Karol Hausman, Alex Herzog, Daniel Ho, Jasmine Hsu, Julian Ibarz, Brian Ichter, Alex Irpan, Eric Jang, Rosario Jauregui Ruano, Kyle Jeffrey, Sally Jesmonth, Nikhil J Joshi, Ryan Julian, Dmitry Kalashnikov, Yuheng Kuang, Kuang-Huei Lee, Sergey Levine, Yao Lu, Linda Luu, Carolina Parada, Peter Pastor, Jornell Quiambao, Kanishka Rao, Jarek Rettinghouse, Diego Reyes, Pierre Sermanet, Nicolas Sievers, Clayton Tan, Alexander Toshev, Vincent Vanhoucke, Fei Xia, Ted Xiao, Peng Xu, Sichun Xu, Mengyuan Yan, Andy Zeng* [[PDF](https://arxiv.org/pdf/2204.01691)] [[Code](https://github.com/google-research/google-research/tree/master/saycan)]
+
+4. **LLM-Planner: Few-Shot Grounded Planning for Embodied Agents with Large Language Models** `ICCV 2023`
+    
+    *Chan Hee Song, Jiaman Wu, Clayton Washington, Brian M. Sadler, Wei-Lun Chao, Yu Su* [[PDF](https://arxiv.org/pdf/2212.04088)] [[Code](https://github.com/OSU-NLP-Group/LLM-Planner/)]
+
+5. **Skill Induction and Planning with Latent Language** `ACL 2022`
+    
+    *Pratyusha Sharma, Antonio Torralba, Jacob Andreas* [[PDF](https://arxiv.org/pdf/2110.01517)]
+
+6. **Adapt: As-needed decomposition and planning with language models** `NAACL 2024 Findings`
+  
+    *Archiki Prasad, Alexander Koller, Mareike Hartmann, Peter Clark, Ashish Sabharwal, Mohit Bansal, Tushar Khot* [[PDF](https://arxiv.org/pdf/2311.05772)] [[Code](https://github.com/archiki/ADaPT)]
+
+7. **Dynamic Planning with a LLM** `NeurIPS 2024 LanGame Workshop`
+
+    *Gautier Dagan, Frank Keller, Alex Lascarides* [[PDF](https://arxiv.org/pdf/2308.06391)] [[Code](https://github.com/itl-ed/llm-dp)]
+
+8. **Large Language Models as Commonsense Knowledge for Large-Scale Task Planning** `NeurIPS 2023`
+
+    *Zirui Zhao, Wee Sun Lee, David Hsu* [[PDF](https://arxiv.org/pdf/2305.14078)] [[Code](https://github.com/1989Ryan/llm-mcts)]
+
+9. **On Grounded Planning for Embodied Tasks with Language Models** `AAAI 2023`
+
+    *Bill Yuchen Lin, Chengsong Huang, Qian Liu, Wenda Gu, Sam Sommerer, Xiang Ren* [[PDF](https://arxiv.org/pdf/2209.00465)] [[Code](https://github.com/INK-USC/G-PlanET)]
+
+
+#### Action Grounding
+1. **LLM-Planner: Few-Shot Grounded Planning for Embodied Agents with Large Language Models** `ICCV 2023`
+    
+    *Chan Hee Song, Jiaman Wu, Clayton Washington, Brian M. Sadler, Wei-Lun Chao, Yu Su* [[PDF](https://arxiv.org/pdf/2212.04088)] [[Code](https://github.com/OSU-NLP-Group/LLM-Planner/)]
+
+2. **Grounding LLMs For Robot Task Planning Using Closed-loop State Feedback** `Preprint`
+    
+    *Vineet Bhat, Ali Umut Kaypak, Prashanth Krishnamurthy, Ramesh Karri, Farshad Khorrami* [[PDF](https://arxiv.org/pdf/2402.08546)]
+
+3. **Planning with Large Language Models via Corrective Re-prompting** `NeurIPS 2022 Foundation Models for Decision Making Workshop`
+
+    *Shreyas Sundara Raman, Vanya Cohen, Eric Rosen, Ifrah Idrees, David Paulius and Stefanie Tellex* [[PDF](https://openreview.net/pdf?id=cMDMRBe1TKs)] 
+
+4. **SayCanPay: Heuristic Planning with Large Language Models using Learnable Domain Knowledge** `AAAI 2024`
+
+    *Rishi Hazra, Pedro Zuidberg Dos Martires, Luc De Raedt* [[PDF](https://arxiv.org/pdf/2308.12682)] [[Code](https://github.com/RishiHazra/saycanpay)]
+
+
+#### Sample-then-Filter
+1. **Distilling Script Knowledge from Large Language Models for Constrained Language Planning** `ACL 2023`
+
+    *Siyu Yuan, Jiangjie Chen, Ziquan Fu, Xuyang Ge, Soham Shah, Charles Robert Jankowski, Yanghua Xiao, Deqing Yang* [[PDF](https://arxiv.org/pdf/2305.05252)] [[Code](https://github.com/siyuyuan/coscript)]
+
+2. **PlaSma: Making Small Language Models Better Procedural Knowledge Models for (Counterfactual) Planning** `ICLR 2024`
+
+    *Faeze Brahman, Chandra Bhagavatula, Valentina Pyatkin, Jena D. Hwang, Xiang Lorraine Li, Hirona J. Arai, Soumya Sanyal, Keisuke Sakaguchi, Xiang Ren, Yejin Choi* [[PDF](https://arxiv.org/pdf/2305.19472)] [[Code](https://github.com/allenai/PlaSma)]
+
+3. **Trust the PRoC3S: Solving Long-Horizon Robotics Problems with LLMs and Constraint Satisfaction** `CoRL 2024`
+    
+    *Aidan Curtis, Nishanth Kumar, Jing Cao, Tomás Lozano-Pérez, Leslie Pack Kaelbling* [[PDF](https://arxiv.org/pdf/2406.05572)] [[Code](https://github.com/Learning-and-Intelligent-Systems/proc3s)]
+
+
+#### Closed-Loop Systems
+1. **Planning with Large Language Models via Corrective Re-prompting** `NeurIPS 2022 Foundation Models for Decision Making Workshop`
+
+    *Shreyas Sundara Raman, Vanya Cohen, Eric Rosen, Ifrah Idrees, David Paulius and Stefanie Tellex* [[PDF](https://openreview.net/pdf?id=cMDMRBe1TKs)] 
+
+2. **ProgPrompt: Generating Situated Robot Task Plans using Large Language Models.** `ICRA 2023` 
+  
+    *Ishika Singh, Valts Blukis, Arsalan Mousavian, Ankit Goyal, Danfei Xu, Jonathan Tremblay, Dieter Fox, Jesse Thomason, Animesh Garg* [[PDF](https://arxiv.org/abs/2209.11302)] [[Code](https://github.com/NVlabs/progprompt-vh)]
+
+3. **Adapt: As-needed decomposition and planning with language models** `NAACL 2024 Findings`
+  
+    *Archiki Prasad, Alexander Koller, Mareike Hartmann, Peter Clark, Ashish Sabharwal, Mohit Bansal, Tushar Khot* [[PDF](https://arxiv.org/pdf/2311.05772)] [[Code](https://github.com/archiki/ADaPT)]
+
+4. **SelfGoal: Your Language Agents Already Know How to Achieve High-level Goals** `NACCL 2025` 
+  
+    *Ruihan Yang, Jiangjie Chen, Yikai Zhang, Siyu Yuan, Aili Chen, Kyle Richardson, Yanghua Xiao, Deqing Yang* [[PDF](https://arxiv.org/pdf/2406.04784)] [[Code](https://github.com/rhyang2021/SELFGOAL)]
+
+5. **AdaPlanner: Adaptive Planning from Feedback with Language Models** `NeurIPS 2023`
+  
+    *Haotian Sun, Yuchen Zhuang, Lingkai Kong, Bo Dai, Chao Zhang* [[PDF](https://arxiv.org/pdf/2305.16653)] [[Code](https://github.com/haotiansun14/AdaPlanner)]
+
+6. **ISR-LLM: Iterative Self-Refined Large Language Model for Long-Horizon Sequential Task Planning** `ICRA 2024`
+
+    *Zhehua Zhou, Jiayang Song, Kunpeng Yao, Zhan Shu, Lei Ma* [[PDF](https://arxiv.org/pdf/2308.13724)] [[Code](https://github.com/zhehuazhou/ISR-LLM)]
+
+
+### Optimality
+
+#### LLM + Optimizer
+1. **To the Globe (TTG): Towards Language-Driven Guaranteed Travel Planning** `EMNLP 2025 System Demonstrations`
+
+    *Da Ju, Song Jiang, Andrew Cohen, Aaron Foss, Sasha Mitts, Arman Zharmagambetov, Brandon Amos, Xian Li, Justine T Kao, Maryam Fazel-Zarandi, Yuandong Tian* [[PDF](https://arxiv.org/pdf/2410.16456)]
+
+2. **Planning Anything with Rigor: General-Purpose Zero-Shot Planning with LLM-based Formalized Programming** `ICLR 2025`
+
+    *Yilun Hao, Yang Zhang, Chuchu Fan* [[PDF](https://arxiv.org/pdf/2410.12112)] [[Code](https://github.com/yih301/LLMFP)]
+
+
+#### A* Search-Based Methods
+1. **ToolChain*: Efficient Action Space Navigation in Large Language Models with A* Search** `ICLR 2024`
+
+    *Yuchen Zhuang, Xiang Chen, Tong Yu, Saayan Mitra, Victor Bursztyn, Ryan A. Rossi, Somdeb Sarkhel, Chao Zhang* [[PDF](https://arxiv.org/pdf/2310.13227)]
+
+2. **SayCanPay: Heuristic Planning with Large Language Models using Learnable Domain Knowledge** `AAAI 2024`
+
+    *Rishi Hazra, Pedro Zuidberg Dos Martires, Luc De Raedt* [[PDF](https://arxiv.org/pdf/2308.12682)] [[Code](https://github.com/RishiHazra/saycanpay)]
+
+3. **Beyond A*: Better Planning with Transformers via Search Dynamics Bootstrapping** `COLM 2024`
+
+    *Lucas Lehnert, Sainbayar Sukhbaatar, DiJia Su, Qinqing Zheng, Paul Mcvay, Michael Rabbat, Yuandong Tian* [[PDF](https://arxiv.org/pdf/2402.14083)] [[Code](https://github.com/facebookresearch/searchformer)]
+
+
+### Representation
+
+#### LLM-as-a-Translator
+
+#### LLM-as-a-Planner
+
+### Gneralization
+#### Fine-Tuning
+#### Gneralized Planning
+#### Skill Storage
+
+### Efficiency
+#### Reduced LLM and World Model Calls
+#### Shorter inputs and Outputs
+#### Smaller Model Size
 
 ## Citation
 
