@@ -282,7 +282,7 @@ LLMs have immense potential for generating plans, transforming an initial world 
     *Aidan Curtis, Nishanth Kumar, Jing Cao, Tomás Lozano-Pérez, Leslie Pack Kaelbling* [[PDF](https://arxiv.org/pdf/2406.05572)] [[Code](https://github.com/Learning-and-Intelligent-Systems/proc3s)]
 
 
-#### Closed-Loop Systems
+#### Closed-Loop Systems {#closed-loop-system}
 1. **Planning with Large Language Models via Corrective Re-prompting** `NeurIPS 2022 Foundation Models for Decision Making Workshop`
 
     *Shreyas Sundara Raman, Vanya Cohen, Eric Rosen, Ifrah Idrees, David Paulius and Stefanie Tellex* [[PDF](https://openreview.net/pdf?id=cMDMRBe1TKs)] 
