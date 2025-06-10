@@ -1,11 +1,13 @@
 # Awesome-LLM-Planning-Capability
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A curated list of papers and resources based on our survey paper [**"PlanGenLLMs: A Modern Survey of LLM Planning Capabilities"**](https://arxiv.org/abs/2502.11221), which is published at **ACL 2025**.
+A curated list of papers and resources based on our survey paper [**"PlanGenLLMs: A Modern Survey of LLM Planning Capabilities"**](https://arxiv.org/abs/2502.11221), which is published at **ACL 2025**. 
+
+The template is adapted from [Awesome-Language-Model-on-Graphs](https://github.com/PeterGriffinJin/Awesome-Language-Model-on-Graphs).
 
 ![llm-planning](./Figures/llm-planning.png)
 
-**Please cite the paper in [Citation](https://github.com/wll199566/awesome-llm-planning-capability#citation) if you find the paper list and resources in this repository helpful for your research. Thanks!**
+**Please cite the paper in [Citation](https://github.com/wll199566/awesome-llm-planning-capability#citation) and star this repository if you find the paper list and resources in this repository helpful for your research. Thanks!**
 
 ## Introduction
 
@@ -16,14 +18,12 @@ LLMs have immense potential for generating plans, transforming an initial world 
 - [Awesome-LLM-Planning-Capability ](#awesome-llm-planning-capability)
   - [Introduction](#introduction)
   - [Contents](#contents)
-  - [LLM Planning Foundations](#llm-planning-foundation)
-    - [Introduction](#foundation-introduction)
+  - [LLM Planning Foundations](#llm-planning-foundations)
     - [Task Decomposition](#task-decomposition)
-    - [LLM + Classical Planner ](#llm-classical-planner)
+    - [LLM + Classical Planner ](#llm-+-classical-planner)
     - [Search Algorithm](#search-algorithm)
     - [Fine-Tuning](#fine-tuning)
-  - [Performance Criteria](#performance-criteria )
-    - [Introduction](#performance-criteria-introduction)
+  - [Performance Criteria](#performance-criteria)
     - [Completeness](#completeness)
       - [Plan Correctness](#plan-correctness)
       - [Plan Achievability](#plan-achievability)
@@ -33,30 +33,30 @@ LLMs have immense potential for generating plans, transforming an initial world 
       - [Sample-then-Filter](#sample-then-filter)
       - [Closed-Loop System](#closed-loop-system)
     - [Optimality](#optimality)
-      - [LLM + Optimizer ](#llm-optimizer)
-      - [A* Search-Based Methods](#a-search-methods)
+      - [LLM + Optimizer ](#llm-+-optimizer)
+      - [A* Search-Based Methods](#a*-search-methods)
     - [Representation](#representation)
       - [LLM-as-a-Translator](#llm-as-a-translator)
       - [LLM-as-a-Planner](#llm-as-a-planner)
     - [Generalization](#generalization)
       - [Fine-Tuning](#fine-tuning-generalization)
       - [Generalized Planning](#generalized-planning)
-      - [Skill Storage](#generalized-planning)
+      - [Skill Storage](#skill-storage)
     - [Efficiency](#efficiency)
-      - [Reduced LLM and World Model Calls](#reduce-llm-world-model-calls)
-      - [Shorter Inputs and Outputs](#shorter-inputs-outputs)
+      - [Reduced LLM and World Model Calls](#reduced-llm-and-world-model-calls)
+      - [Shorter Inputs and Outputs](#shorter-inputs-and-outputs)
       - [Smaller Model Size](#smaller-model-size)
   - [Evaluation](#evaluation)
-    - [Introduction](#evaluation-introduction)
-    - [Datasets](#evaluation-datasets)
-      - [Planning Focused](#planning-focused-dataset)
-      - [Downstream Tasks](#downstream-tasks-datasets)
-    - [Methods](#evaluation-methods)
-      - [Verifier and Groundtruth](#verifier-groundtruth)
+    - [Datasets](#datasets)
+      - [Planning Focused](#planning-focused)
+      - [Downstream Tasks](#downstream-tasks)
+    - [Methods](#methods)
+      - [Verifier and Groundtruth](#verifier-and-groundtruth)
       - [Human Evaluation](#human-evaluation)
       - [LLM-as-a-Judge](#llm-as-a-judge) 
-    - [Metrics](#evaluation-metrics)
-  - [Other Related Surveys](#other-surveys)
+    - [Metrics](#metrics)
+  <!-- - [Other Related Surveys](#other-surveys)-->
+  - [Contribution](#contribution)
   - [Citations](#citations)
 
 
@@ -733,6 +733,20 @@ This table summarizes commonly used evaluation metrics for each performance crit
 | Efficiency     | Inference Time [(Brahman et al., 2024)](https://arxiv.org/abs/2305.19472); Number of Output and Input Tokens [(Hu et al., 2024)](https://arxiv.org/abs/2305.10276); Number of plan Steps [(Raman et al., 2022)](https://openreview.net/pdf?id=cMDMRBe1TKs); Number of LLM and World Model Calls [(Sun et al., 2024)](https://arxiv.org/abs/2305.16653); Model Size [(Brahman et al., 2024)](https://arxiv.org/abs/2305.19472). |
 | Representation | Number of Parseable Problems [(Zuo et al. 2024)](https://arxiv.org/abs/2407.03321).                                |
 | Generalization | All above metrics can also be applied to unseen scenarios to assess generalization. |
+
+
+## Contribution
+
+Contributions to this repository are welcome!
+
+If you find any error or have relevant resources, feel free to open an issue or a pull request.
+
+Paper format:
+```
+1. **[paper title]** `[Conference_name_year/Journal_name_year/Preprint]`
+
+    *[authors]* [[PDF]([pdf link])] [[Code]([code link])]
+```
 
 ## Citation
 
