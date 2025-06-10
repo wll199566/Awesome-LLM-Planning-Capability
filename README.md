@@ -57,7 +57,7 @@ LLMs have immense potential for generating plans, transforming an initial world 
     - [Metrics](#metrics)
   <!-- - [Other Related Surveys](#other-surveys)-->
   - [Contribution](#contribution)
-  - [Citations](#citations)
+  - [Citation](#citation)
 
 
 ## LLM Planning Foundations
